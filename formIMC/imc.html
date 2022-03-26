@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculo imc</title>
+</head>
+<body>
+<h1>Cálculo IMC</h1>
+<form action="imc.php" method="post">
+
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome" required><br><br>
+    <label for="peso">Peso</label>
+    <input type="number" name="peso" id="peso" step="any" min="1" required><br><br>
+    <label for="altura">Altura</label>
+    <input type="number" name="altura" id="altura" step="any" min="1" required><br><br>
+    <button type="submit" name="calcular">Calcular IMC</button>
+    <button type="reset" name = "Limpar">Limpar</button>
+</form>
+
+</body>
+</html>
