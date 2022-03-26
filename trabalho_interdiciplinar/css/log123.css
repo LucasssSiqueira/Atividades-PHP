@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    display: block;
+    height: 55px;
+    width:400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.01);
+}
+body{
+
+   background-position: 100%;
+}
+div#form{
+
+    width: 420px;
+    margin: 150px auto 0px auto;
+
+}
+div#form-Cad{
+
+    width: 420px;
+    margin: 120px auto 0px auto;
+
+}
+h1{
+   text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+a:hover{
+    color: #8f6dff;
+}
+
+input #submit{
+    background-color: #8f6dff;
+}
+.btn btn-danger{
+background-color: #8f6dff}
